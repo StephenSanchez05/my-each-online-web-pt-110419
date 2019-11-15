@@ -6,6 +6,6 @@ def my_each(collection)
   yield(array[i])
   i = i + 1
 end
-  puts i
+ i
 end
 end
