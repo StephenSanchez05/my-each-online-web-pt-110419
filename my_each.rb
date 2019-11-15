@@ -3,6 +3,8 @@ def my_each(collection)
   i = 0
  
   while i < array.length
+  my_each(collection) do |word|
+    word
   yield(array[i])
   i = i + 1
 end
