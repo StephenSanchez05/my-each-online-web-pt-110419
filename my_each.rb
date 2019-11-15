@@ -5,6 +5,7 @@ def my_each(collection)
   my_each(collection) do |i|
   yield(array[i])
   i = i + 1
+end
   puts i
 end
 end
