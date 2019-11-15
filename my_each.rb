@@ -1,4 +1,6 @@
 def my_each(collection)
- do  |i|
-   puts i
+  i = 0
+ 
+  while i < array.length
+  
 end
